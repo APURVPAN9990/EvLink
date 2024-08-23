@@ -1,0 +1,19 @@
+/* src/Css/Features.css */
+.div_out {
+  
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  
+  
+}
+
+.div_int {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  border-radius: 10px;
+  padding: 2rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* optional: for a subtle shadow effect */
+}
+

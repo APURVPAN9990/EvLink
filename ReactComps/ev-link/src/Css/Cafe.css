@@ -1,0 +1,37 @@
+/* src/pages/CafePage.css */
+.cafe-container {
+    background-color: white;
+    padding: 50px;
+    text-align: center;
+    height: 100%;
+  }
+  
+  .cafe-options {
+    display: grid;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  .cafe-card {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+  }
+  
+  .cafe-card h2 {
+    color: #388e3c;
+  }
+  
+  .description {
+    color: #666;
+    font-size: 14px;
+    margin: 10px 0;
+  }
+  
+  .location {
+    color: #999;
+    font-size: 12px;
+  }
+  

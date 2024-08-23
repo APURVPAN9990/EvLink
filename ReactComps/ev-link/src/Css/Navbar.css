@@ -1,0 +1,61 @@
+/* src/components/Navbar.css */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #1a1a1a;
+}
+
+.navbar-logo img {
+  height: 40px;
+}
+
+.navbar-links {
+  display: flex;
+  list-style-type: none;
+}
+
+.navbar-links li {
+  margin: 0 15px;
+  position: relative;
+}
+
+.navbar-links a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+
+.navbar-links a:hover {
+  color: #00cc44;
+}
+
+.navbar-shop a {
+  background-color: #00cc44;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.navbar-shop a:hover {
+  background-color: #009933;
+}
+
+/* Dropdown styling */
+.navbar-links li .dropdown {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #333;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.navbar-links li:hover .dropdown {
+  display: block;
+}

@@ -1,0 +1,20 @@
+package com.demo.Controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.demo.Service.PaymentService;
+
+@RestController
+public class PaymentController {
+
+    @Autowired
+    private PaymentService paymentService;
+
+    @GetMapping("nodefile/createOrder/${amount}")
+    public String createOrder(@PathVariable int amount) throws Exception {
+        return paymentService.createOrder(amount);
+    }
+}

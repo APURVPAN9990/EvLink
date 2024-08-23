@@ -1,0 +1,97 @@
+/* src/pages/RegistrationForm.css */
+.registration-form-container {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+    z-index: 1;
+  }
+  
+  .registration-form-container h1 {
+    color: #388e3c;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  .form-group input,
+  .form-group textarea,
+  .form-group select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .form-group input.error,
+  .form-group textarea.error,
+  .form-group select.error {
+    border-color: #ff0000;
+  }
+  
+  .error-text {
+    color: #ff0000;
+    font-size: 12px;
+    margin-top: 5px;
+  }
+  
+  .submission-status {
+    margin-top: 20px;
+    color: #388e3c;
+  }
+  
+  button {
+    background-color: #388e3c;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #2e7d32;
+  }
+  
+  /* Adding the background image */
+  body {
+    background-image: url('C:\Users\mayan\Desktop\CDAC EV LINK\ApurvProg\ReactComps\ev-link\Images\istockphoto-1289530406-612x612.jpg'); /* Update this path with the correct image path */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Keeps the background image fixed while scrolling */
+    margin: 0;
+    padding: 0;
+  }
+  
+  .registration-form-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5); /* Optional: Dark overlay */
+  }
+  
+
+  .footer {
+    background-color: green;
+    color: white;
+    padding: 1px;
+    position: fixed;
+    /* position: fixed; */
+    width: 100%;
+    bottom: 0;
+    height: 30px;
+    text-align: center;
+  }

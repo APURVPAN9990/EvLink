@@ -1,0 +1,124 @@
+/
+├── demo/  (Backend)
+│   ├── .classpath
+│   ├── .factorypath
+│   ├── .gitignore
+│   ├── .project
+│   ├── HELP.md
+│   ├── mvnw
+│   ├── mvnw.cmd
+│   ├── pom.xml
+│   ├── .mvn/
+│   │   └── wrapper/
+│   │       └── maven-wrapper.properties
+│   ├── .settings/
+│   │   ├── org.eclipse.core.resources.prefs
+│   │   ├── org.eclipse.jdt.apt.core.prefs
+│   │   ├── org.eclipse.jdt.core.prefs
+│   │   ├── org.eclipse.m2e.core.prefs
+│   │   └── org.springframework.ide.eclipse.prefs
+│   ├── src/
+│   │   ├── main/
+│   │   │   ├── java/
+│   │   │   │   └── com/
+│   │   │   │       └── demo/
+│   │   │   │           ├── DemoApplication.java
+│   │   │   │           ├── config/
+│   │   │   │           │   └── WebConfig.java
+│   │   │   │           ├── Controller/
+│   │   │   │           │   ├── BookingController.java
+│   │   │   │           │   ├── PaymentController.java
+│   │   │   │           │   ├── StationRegistrationController.java
+│   │   │   │           │   └── UserRegistrationController.java
+│   │   │   │           ├── Model/
+│   │   │   │           │   ├── Booking.java
+│   │   │   │           │   ├── StationRegistration.java
+│   │   │   │           │   └── UserRegistration.java
+│   │   │   │           ├── Repository/
+│   │   │   │           │   ├── BookingRepository.java
+│   │   │   │           │   ├── StationRegistrationRepository.java
+│   │   │   │           │   └── UserRegistrationRepository.java
+│   │   │   │           └── Service/
+│   │   │   │               ├── BookingService.java
+│   │   │   │               └── PaymentService.java
+│   │   │   ├── resources/
+│   │   │   │   ├── application.properties
+│   │   │   │   ├── static/
+│   │   │   │   └── templates/
+│   │   └── test/
+│   │       ├── java/
+│   │       │   └── com/
+│   │       │       └── demo/
+│   │       │           └── DemoApplicationTests.java
+│   └── target/
+│       ├── classes/
+│       │   ├── application.properties
+│       │   └── com/
+│       │       └── demo/
+│       └── test-classes/
+│           └── com/
+│               └── demo/
+│                   └── DemoApplicationTests.class
+└── ev-link/  (Frontend)
+    ├── .gitignore
+    ├── package-lock.json
+    ├── package.json
+    ├── README.md
+    ├── Images/
+    │   ├── green-car-with-lightning-bolt-front-it_949067-448 (1).png
+    │   ├── istockphoto-1289530406-612x612.jpg
+    │   ├── LOGO.webp
+    │   └── LOGO2.webp
+    ├── public/
+    │   ├── favicon.ico
+    │   ├── index.html
+    │   ├── logo192.png
+    │   ├── logo512.png
+    │   ├── manifest.json
+    │   └── robots.txt
+    └── src/
+        ├── App.css
+        ├── App.js
+        ├── App.test.js
+        ├── index.css
+        ├── index.js
+        ├── logo.svg
+        ├── reportWebVitals.js
+        ├── setupTests.js
+        ├── comps/
+        │   ├── Adv.js
+        │   ├── Boom.js
+        │   ├── Cafe.js
+        │   ├── DirectionsButton.js
+        │   ├── Features.js
+        │   ├── Home.js
+        │   ├── Login.js
+        │   ├── LoginMenu.js
+        │   ├── Logout.js
+        │   ├── Map.js
+        │   ├── MapComponent.js
+        │   ├── Nav2.js
+        │   ├── Navbar.js
+        │   ├── NodeFile.js
+        │   ├── PaymentPage.js
+        │   ├── Pricing.js
+        │   ├── Registration.js
+        │   ├── SearchBar.js
+        │   ├── SignUp.js
+        │   ├── StationDashboard.js
+        │   ├── StationDashboardComponent.js
+        │   ├── StationLogin.js
+        │   ├── StationRegister.js
+        │   └── Step.js
+        └── Css/
+            ├── Adv.css
+            ├── Cafe.css
+            ├── Features.css
+            ├── Home.css
+            ├── Login.css
+            ├── Map.css
+            ├── Navbar.css
+            ├── Pricing.css
+            ├── Registration.css
+            ├── SignUp.css
+            └── StationRegister.css

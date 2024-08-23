@@ -1,0 +1,64 @@
+/* src/components/BookingInfo.css */
+.booking-info-container {
+    padding: 40px;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  .play{
+    color: #388e3c;
+  }
+  .booking-info-container h2 {
+    color: #388e3c;
+    margin-bottom: 20px;
+  }
+  
+  .advantages-list,
+  .steps-list {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .advantages-list li,
+  .steps-list li {
+    margin-bottom: 15px;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .advantages-list li:before,
+  .steps-list li:before {
+    content: '•';
+    color: #388e3c;
+    font-weight: bold;
+    display: inline-block;
+    width: 20px;
+    margin-left: -20px;
+  }
+  
+  .steps-list li:before {
+    content: '';
+  }
+  
+  .steps-list li {
+    position: relative;
+    padding-left: 30px;
+  }
+  
+  .steps-list li:before {
+    content: attr(data-step);
+    position: absolute;
+    left: 0;
+    background-color: #388e3c;
+    color: #fff;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
